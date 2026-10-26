@@ -1,0 +1,30 @@
+.skills-section {
+  width: 100%;
+  overflow: hidden;
+}
+
+.skills-embla {
+  overflow: hidden;
+  width: 100%;
+}
+
+.skills-container {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.skills-slide {
+  flex: 0 0 auto;
+  min-width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skills-slide img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  display: block;
+}
